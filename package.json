@@ -1,0 +1,18 @@
+{
+  "name": "moustacherepublic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run compile-css && npm run watch-css",
+    "compile-css": "sass ./src/scss/styles.scss ./dist/css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "sass --watch ./src/scss/styles.scss ./dist/css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.49.8"
+  }
+}
